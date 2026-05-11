@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+venv/
+env/
+.venv/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React Native
+.metro/
+.buckconfig/
+*.orig.*
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 环境变量
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 缓存
+.cache/
+*.log
+
+# 构建产物
+out/
+dist/
+build/

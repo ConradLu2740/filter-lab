@@ -1,0 +1,12 @@
+[build]
+  builder = "dockerfile"
+
+[deploy]
+  healthcheckPath = "/health"
+  restartPolicyType = "on-failure"
+  restartPolicyMaxRetries = 3
+
+[environment]
+  PORT = "8000"
+  DEBUG = "false"
+  MAX_CONCURRENT_TASKS = "5"
